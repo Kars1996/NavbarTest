@@ -11,3 +11,8 @@ export type ResponseProp = {
     response: any;
     status?: number;
 }
+
+export type NavbarProp = {
+    label: string;
+    href: string;
+}
