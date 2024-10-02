@@ -4,6 +4,7 @@ import "./globals.scss";
 import Body from "@/modules/Body/Body";
 import Console from "@/modules/Console/Console";
 import AOS from "@/lib/Aos/aos";
+import Nav from "@/components/nav/nav";
 
 /*
 Copyright © 2024 Kars (github.com/kars1996)
@@ -70,6 +71,7 @@ export default function RootLayout({
             <Body className={`${inter.className} __kars`}>
                 <main className="_kars">
                     <AOS />
+                    <Nav />
                     {children}
                 </main>
                 <Console check={check} />

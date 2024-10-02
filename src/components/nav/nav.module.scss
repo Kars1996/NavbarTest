@@ -1,0 +1,21 @@
+.nav {
+    @apply mt-4 bg-transparent;
+    transition:
+        background-color 0.3s ease,
+        border-radius 0.3s ease,
+        margin 0.3s ease,
+        padding 0.3s ease,
+        width 0.3s ease,
+        max-width 0.3s ease;
+
+    &.pillNav {
+        @apply mx-auto mt-4 max-w-3xl rounded-xl bg-[#1c1c1c] px-4;
+    }
+}
+
+.pillContainer {
+    @apply max-w-3xl rounded-xl bg-[#1c1c1c] px-4;
+    transition:
+        max-width 0.3s ease,
+        padding 0.3s ease;
+}

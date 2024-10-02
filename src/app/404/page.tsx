@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function PageNotFound() {
     return (
-        <>
+        <div>
             <Head>
                 <link
                     rel="preload"
@@ -54,6 +54,6 @@ export default function PageNotFound() {
                     </Link>
                 </main>
             </div>
-        </>
+        </div>
     );
 }
