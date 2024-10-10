@@ -68,14 +68,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" made-by="kars">
-            <Body className={`${inter.className} __kars`}>
+            <body className={`${inter.className} __kars`}>
                 <main className="_kars">
-                    <AOS />
+                    {/* <AOS /> */}
                     <Nav />
                     {children}
                 </main>
                 <Console check={check} />
-            </Body>
+            </body>
         </html>
     );
 }

@@ -18,6 +18,7 @@
     "gsap": "latest",
     "lenis": "latest",
     "locomotive-aos": "latest",
+    "motion": "^10.18.0",
     "next": "latest",
     "prisma": "latest",
     "react": "latest",
